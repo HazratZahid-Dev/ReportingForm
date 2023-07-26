@@ -4,6 +4,8 @@ import home from "../images/properties.png";
 import entire from "../images/entire.png";
 import chair from "../images/chair.png";
 import none from "../images/none.png";
+import Mainswitch from "../images/Mainswitch.png";
+
 
 
 
@@ -480,8 +482,8 @@ const Login = () => {
                   <>
                     <div className="flex items-center gap-x-6">
                       <div className="w-32 rounded-md  bg-slate-100 h-32 border hover:bg-green-200 hover:border-2 hover:border-green-600 flex flex-col items-center justify-center">
-                        <img src={home} className=" object-none  h-16 w-16 " />
-                        <p className="text-xs text-[#737475] ">
+                        <img src={Mainswitch} className=" object-contain  h-12 w-12 " />
+                        <p className="text-xs text-[#737475] py-2">
                           Main switch tripped
                         </p>
                       </div>
